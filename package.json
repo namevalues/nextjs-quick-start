@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-quick-start",
+  "version": "1.0.0",
+  "description": "nextjs boilerplate",
+  "repository": "https://github.com/namevalues/nextjs-quick-start.git",
+  "author": "namevalues <junhyeok.me@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "next": "^8.0.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
