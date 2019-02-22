@@ -7,13 +7,15 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "express": "^4.16.4",
     "next": "^8.0.1",
+    "next-routes": "^1.4.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   }
 }
